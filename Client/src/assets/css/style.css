@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+
+
+.sideBar{
+    background-color: #F1F2F7;
+    width: 240px;
+    height: 740px;
+    
+   
+    
+
+}
+
+.button-delete {
+    width: 67px;
+    height: 40px;
+    top: 357px;
+    left: 376px;
+    border-radius: 5px;
+   
+    
+    background-color: #FEE2E2;
+    color: red;
+    /* Add any additional styles here */
+}
+
+.edit{
+    width: 67px;
+    height: 40px;
+    top: 357px;
+    left: 376px;
+    border-radius: 5px;
+    background-color: #F5F7FA;
+    color: green;
+    
+}
+
+
+.logo{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.hr{
+    background-color: #C8CBD9;
+    margin-top: 16px;
+    
+}
+.div{
+    width: 98px;
+    height: 24px;
+}
+.menu{
+    width: 200px;
+height: 107px;
+top: 104px;
+left: 20px;
+
+
+}
+.h3{
+    margin-top: 20px;
+}
+
+
+
+.image-container {
+    position: relative;
+    
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 10px;
+    
+  }
+
+  .price {
+    position: absolute;
+  width: auto; /* Adjust the width of the price box */
+  height: 21px; /* Adjust the height of the price box */
+  top: 10px;
+  left: 10px; 
+  background-color: #A855F7; 
+  padding: 5px 10px;
+  border-radius: 5px ; 
+  opacity: .9; 
+  font-weight: bold;
+  color: white; /* Adjust the color of the price text */
+  font-size: 12px; 
+  
+  
+  }
+
+  .sidelist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.sidelist .icon {
+    width: 15px; /* Adjust the width of the icon container */
+    margin-right: 10px; /* Adjust as needed */
+    background-color: transparent;
+  
+   
+}
+
+.sidelist .img {
+    width: 100%;
+     /* Make sure the image takes up the entire space of its container */
+     background-color: transparent;
+     font-weight: bold;
+    
+}
+.tittle{
+    font-size: 12px;
+    color: #5A67BA;
+    background-color: transparent;
+    font-weight: bold;
+   
+    
+}
+
+#active{
+    background-color: #707FDD;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.input-field::placeholder {
+    opacity: 0.5; /* Set the opacity value */
+}
+
+.card-title{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card{
+    height: 250px;
+}
